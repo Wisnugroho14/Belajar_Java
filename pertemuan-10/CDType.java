@@ -10,8 +10,8 @@ public class CDType {
                         packs.price();  
               }   
              }  
-             public void showItems(){  
-              for (Packing packing : items){  
+             public void showItems(){   
+              for (Packing packing : items){ 
              System.out.print("CD name : "+packing.pack());  
              System.out.println(", Price : "+packing.price());  
           }       
